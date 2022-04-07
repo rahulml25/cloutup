@@ -14,5 +14,8 @@
     "postcss": "^8.4.5",
     "tailwindcss": "^3.0.8",
     "vite": "^2.7.10"
+  },
+  "dependencies": {
+    "tailwind-scrollbar-hide": "^1.1.7"
   }
 }
