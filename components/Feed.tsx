@@ -32,7 +32,7 @@ const Feed = () => {
 		        <div className="mt-2.5 p-4 rounded-xl bg-white shadow">
 		          <div className="flex items-center space-x-2">
 		            <img
-		              src="./rahul.gif"
+		              src="/avatars/rahul.gif"
 		              className="h-8 w-8 rounded-full cursor-pointer"
 		              alt=""/>
 		            <div className="flex-1 p-2 rounded-full bg-gray-100">
@@ -92,7 +92,7 @@ const Feed = () => {
 		            <div className="p-3.5 bg-white rounded-xl shadow">
 		              <div className="flex items-center justify-start">
 		                <img
-		                  src="./rahul.gif"
+		                  src="/avatars/rahul.gif"
 		                  className="h-8 w-8 rounded-full cursor-pointer"
 		                  alt=""/>
 		                <p className="ml-2 cursor-pointer">Rahul Mondal</p>
@@ -137,7 +137,7 @@ const Feed = () => {
 		          </div>
 		        </div>
 		      </div>
-	)
+	);
 }
 
 export default Feed;
