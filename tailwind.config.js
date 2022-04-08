@@ -1,7 +1,14 @@
 module.exports = {
-  content: ["*"],
+  content: [
+    './pages/**/*.{js,jsx,ts,tsx}',
+    './components/**/*.{js,jsx,ts,tsx}',
+  ],
+  darkMode: 'media', // or 'class',
   theme: {
     extend: {},
   },
-  plugins: [require('tailwind-scrollbar-hide'),],
+  variants: {
+    extend: {},
+  },
+  plugins: [],
 }
