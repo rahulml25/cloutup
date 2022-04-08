@@ -6,11 +6,11 @@ import Views from 'components/Views';
 
 const Home = () => {
     return (
-      <>
+      <div class="flex">
     	<Sidebar/>
     	<Feed/>
     	<Views/>
-      </>
+      </div>
     );
 }
 
