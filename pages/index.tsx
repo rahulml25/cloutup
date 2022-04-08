@@ -6,14 +6,17 @@ import Views from 'components/Views';
 
 const Home = () => {
     return (
-      <div className="flex">
+      <>
         <Head>
           <title>Facebook</title>
         </Head>
-    	<Sidebar/>
-    	<Feed/>
-    	<Views/>
-      </div>
+
+        <main className="flex h-screen bg-gray-100 overflow-hidden">
+    	  <Sidebar/>
+    	  <Feed/>
+    	  <Views/>
+        </main>
+      </>
     );
 }
 
