@@ -1,7 +1,7 @@
 
 const Feed = () => {
 	return (
-		<div className="justify-center md:w-2/3 mx-auto px-2 md:px-8 overflow-y-auto scrollbar-hide">
+		<div className="justify-center md:w-2/3 mx-auto px-2 md:px-8 overflow-y-scroll scrollbar-hide">
 		        <div className="flex mt-2.5 space-x-2">
 		          <div className="relative cursor-pointer">
 		            <img
