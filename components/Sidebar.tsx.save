@@ -40,11 +40,11 @@ const Sidebar = () => {
               <p className="hidden md:inline ml-2">Watch</p>
             </div>
             <div className="flex md:p-1.5 items-center hover:bg-gray-200 rounded-md cursor-pointer">
-              <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-    	    width="24" height="24" viewBox="0 0 600.111 600.111"
+              <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	    width="24" height="24" viewBox="0 0 600.111 600.111"
                 fill="currentColor"
                 className="h-[1.25rem] md:h-[1.75rem] text-blue-500"
-    	    xmlSpace="preserve">
+	    xmlSpace="preserve">
                 <g><g><g>
     			<path d="M537.423,52.562h-59.836V21.92c0-11.83-9.59-21.42-21.42-21.42s-21.42,9.59-21.42,21.42v30.642H165.364V21.92
     				c0-11.83-9.59-21.42-21.42-21.42s-21.42,9.59-21.42,21.42v30.642H62.688c-32.059,0-58.14,26.082-58.14,58.14v430.77
@@ -137,6 +137,7 @@ const Sidebar = () => {
               <p className="hidden md:inline ml-2">Events</p>
             </div>
             <div className="flex md:p-1.5 items-center md:hover:bg-gray-200 rounded-md cursor-pointer">
+            <div cla
               <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
     	    viewBox="0 0 512 512"
                 width="24" height="24"

@@ -6,9 +6,11 @@ import Views from 'components/Views';
 
 const Home = () => {
     return (
+      <>
     	<Sidebar/>
     	<Feed/>
     	<Views/>
+      </>
     );
 }
 

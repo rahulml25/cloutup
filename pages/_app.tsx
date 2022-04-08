@@ -1,7 +1,7 @@
 import 'styles/global.css';
-import Navbar 'components/navbar';
+import Navbar from 'components/navbar';
 
-const App = ({ component, ...pageProps }) => (
+const App = ({ Component, ...pageProps }) => (
   <>
     <Navbar />
     <Component {...pageProps} />
