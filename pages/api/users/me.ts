@@ -1,4 +1,4 @@
-import connectDB from 'middlewares/db';
+import {authProvider} from 'middlewares/auth';
 import {User} from 'models';
 
 
@@ -27,4 +27,4 @@ const handler = async (req, res) => {
 
 }
 
-export default connectDB(handler);
+export default authProvider(handler);
