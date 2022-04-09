@@ -1,9 +1,8 @@
 import mongoose from 'mongoose';
 import {errorHandler} from './error';
-const requestIp = require('request-ip');
 
 const connectDB = (handler) => errorHandler(async (req, res) => {
-  console.log(req.connection.remoteAddress, requestIp.getClientIp(req));
+  console.log(req.connection.remoteAddress, req.geo, req.nextUrl.geo);
   if (req.headers.host !== process.env.HOST) {
     res.status(400);
     throw new Error('not allowed');
