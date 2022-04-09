@@ -1,4 +1,4 @@
-import jwt from 'jsonwebtokens';
+import jwt from 'jsonwebtoken';
 
 const generateAuthTokens = (user) => {
   const { id, email } = user,
@@ -15,3 +15,7 @@ const generateAuthTokens = (user) => {
 
   return authTokens;
 };
+
+export {
+  generateAuthTokens,
+}

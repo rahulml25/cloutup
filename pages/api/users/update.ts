@@ -21,7 +21,7 @@ const handler = async (req, res) => {
   const {
     username, email,
     firstname, lastname,
-    ...rest,
+    ...rest
   } = req.body;
 
   if (!username || !email || !firstname || !lastname) {
@@ -44,7 +44,7 @@ const handler = async (req, res) => {
 
   res.status(200).json({
   	id: user.id,
-  	...{user._doc},
+  	...(user._doc),
   });
 
 }

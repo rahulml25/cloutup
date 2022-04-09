@@ -1,3 +1,4 @@
+import Head from 'next/head';
 import router from 'next/router';
 
 const Login = () => {
@@ -28,12 +29,12 @@ const Login = () => {
         <title>Login - Facebook</title>
       </Head>
 
-      <main class="flex items-center justify-center">
+      <main className="flex items-center justify-center">
         <div>
           <h1 className="text-2xl font-semibold">Login</h1>
           <p className="text-sm text-gray-500">Login with credencials</p>
 
-          <form {..{onSubmit}} className="mt-4">
+          <form {...{onSubmit}} className="mt-4">
             <div className="my-4">
               <input type="text" placeholder="Username or Email"
                 id="username_email" name="username_email"

@@ -1,3 +1,4 @@
+import Head from 'next/head';
 import router from 'next/router';
 
 const Signup = () => {
@@ -37,12 +38,12 @@ const Signup = () => {
         <title>Signup - Facebook</title>
       </Head>
 
-      <main class="flex items-center justify-center">
+      <main className="flex items-center justify-center">
         <div>
           <h1 className="text-2xl font-semibold">Signup</h1>
           <p className="text-xs text-gray-500">Create your account</p>
 
-          <form {..{onSubmit}} className="mt-4">
+          <form {...{onSubmit}} className="mt-4">
             <div className="my-3">
               <input type="text" placeholder="Username"
                 id="username" name="username"

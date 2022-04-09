@@ -5,7 +5,7 @@ const connectDB = (handler) => errorHandler(async (req, res) => {
   if (!mongoose.connections[0].readyState) {
     await mongoose.connect(process.env.DATABASE_URI);
   }
-  return await handle(req, res);
+  return await handler(req, res);
 });
 
 export default connectDB;

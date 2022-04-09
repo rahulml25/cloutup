@@ -14,17 +14,17 @@ const handler = async (req, res) => {
   	throw new Error('not found');
   }
 
-  const { email, password } = req.body;
+  const { username_email, password } = req.body;
 
   // checking required credencials
-  if (!(username || email) || !password) {
+  if (!(username_email) || !password) {
   	res.status(400);
   	throw new Error('please provide all fields');
   }
 
   const user = (
-    await User.findOne({username}) ||
-    await User.findOne({email})
+    await User.findOne({username: username_email}) ||
+    await User.findOne({email: username_email})
   );
 
   if (!user || !(await bcrypt.compare(password, user.password))) {

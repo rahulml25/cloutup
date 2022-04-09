@@ -1,4 +1,5 @@
 import connectDB from './db';
+import jwt from 'jsonwebtoken';
 import {User} from 'models';
 
 const authProvider = (handler) => connectDB(async (req, res) => {
@@ -8,13 +9,13 @@ const authProvider = (handler) => connectDB(async (req, res) => {
   if (auth && auth?.startsWith('Bearer')) {
     try {
       token = auth.split(' ')[1];
-      const decode = jwt.verify(token, process.env.SECRET_KEY);
+      const decoded = jwt.verify(token, process.env.SECRET_KEY);
 
       const user = await User.findById(decoded?.id);
       if (!user) throw new Error('');
 
       req.user = user;
-      rerurn await handler(req, res);
+      return await handler(req, res);
 
     } catch (err) {
       res.status(401);

@@ -22,7 +22,7 @@ const handler = async (req, res) => {
 
   res.status(200).json({
   	id: user.id,
-  	...{user._doc},
+  	...(user._doc),
   });
 
 }
