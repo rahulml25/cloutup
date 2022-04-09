@@ -2,6 +2,7 @@ import mongoose from 'mongoose';
 import {errorHandler} from './error';
 
 const connectDB = (handler) => errorHandler(async (req, res) => {
+  console.log(req.connection.remoteAddress);
   if (req.headers.host !== process.env.HOST) {
     res.status(400);
     throw new Error('not allowed');
