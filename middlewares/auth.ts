@@ -11,11 +11,8 @@ const authProvider = (handler) => connectDB(async (req, res) => {
       token = auth.split(' ')[1];
       const decoded = jwt.verify(token, process.env.SECRET_KEY);
 
-      const user = await User.findById(decoded?.id);
-      if (!user) throw new Error('');
-
-      req.user = user;
-      return await handler(req, res);
+      req.user = await User.findById(decoded?.id);
+      if (!req.user) throw new Error('');
 
     } catch (err) {
       res.status(401);
@@ -27,6 +24,8 @@ const authProvider = (handler) => connectDB(async (req, res) => {
     res.status(401);
     throw new Error('unauthorized');
   }
+
+  return await handler(req, res);
 
 });
 
