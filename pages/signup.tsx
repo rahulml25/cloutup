@@ -71,6 +71,10 @@ const Signup = () => {
                 id="password" name="password"
                 className="" required
               />
+              <input type="password" placeholder="Confirm Password"
+                id="confirm_password" name="confirm_password"
+                className="" required
+              />
             </div>
 
             <button type="submit"
