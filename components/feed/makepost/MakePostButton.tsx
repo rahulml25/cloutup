@@ -10,4 +10,4 @@ const MakePostButton = (props) => {
   )
 }
 
-export MakePostButton;
+export default MakePostButton;

@@ -8,7 +8,7 @@ import {
   ChatAltIcon,
 } from '@heroicons/react/outline';
 
-const FeetPost = (props) => {
+const FeedPost = (props) => {
   const {
     userimg, username,
     text, imgSrc
@@ -32,7 +32,7 @@ const FeetPost = (props) => {
   	    <img
   		  src={imgSrc}
   		  className="object-scale-down max-h-[40rem]" alt=""/>
-  	  </div>
+  	  </div>}
 
   	  <div className="flex mt-3.5 items-center justify-between md:justify-evenly space-x-2">
   	    <FeedPostButton Icon={ThumbUpIcon} title="Like"/>

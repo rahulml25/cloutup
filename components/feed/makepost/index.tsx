@@ -1,7 +1,7 @@
-const MakePostButton from './MakePostButton';
+import MakePostButton from './MakePostButton';
 
 import {
-  VideoCamera,
+  VideoCameraIcon,
 } from '@heroicons/react/solid';
 import {
   EmojiHappyIcon,
@@ -26,11 +26,11 @@ const MakePost = () => {
       <div className="my-4 border-b" />
 
   	  <div className="flex items-center justify-between md:justify-evenly space-x-2">
-  	    <MakePost Icon={VideoCameraIcon} title="Live Video" className="text-red-500"/>
-  	    <MakePost Icon={PhotographIcon} title="Photo / Video" className="text-green-500">
+  	    <MakePostButton Icon={VideoCameraIcon} title="Live Video" className="text-red-500"/>
+  	    <MakePostButton Icon={PhotographIcon} title="Photo / Video" className="text-green-500">
           <input type="files" hidden/>
-  	    </MakePost>
-  	    <MakePost Icon={EmojiHappyIcon} title="Filling / Activity" className="text-yellow-500"/>
+  	    </MakePostButton>
+  	    <MakePostButton Icon={EmojiHappyIcon} title="Filling / Activity" className="text-yellow-500"/>
       </div>
     </div>
   )

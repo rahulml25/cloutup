@@ -1,4 +1,4 @@
-import Status from 'Status';
+import Status from './Status';
 import MakePost from './makepost';
 import FeedPost from './feedpost';
 
@@ -33,7 +33,7 @@ const Feed = () => {
 	      }
 	    />
 	  </div>
-    <div>
+    </div>
   );
 }
 
