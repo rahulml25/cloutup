@@ -1,7 +1,14 @@
+import NavItem from './NavItem';
+
+import {
+  HomeIcon,
+} from '@heroicons/react/solid';
+
 
 const Navbar = () => {
   return (
     <nav className="flex p-2 items-center justify-between sticky top-0 bg-white shadow-md z-10">
+        {/* Left Nav */}
         <div className="flex items-center">
           <img
             src="https://links.papareact.com/5me"
@@ -23,8 +30,10 @@ const Navbar = () => {
             />
           </div>
         </div>
-  
+
+        {/* Center Nav */}  
         <div className="flex items-center space-x-3 cursor-pointer">
+          <NavItem icon={HomeIcon}/>
           <div className="md:p-4 md:bg-gray-100 rounded-xl">
             <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
               width="24" height="24"
