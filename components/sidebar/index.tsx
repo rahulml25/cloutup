@@ -1,3 +1,16 @@
+import SidebarRow from './SidebarRow';
+
+import {
+  ChevronDownIcon,
+  ShoppingBagIcon,
+  UserGroupIcon,
+} from '@heroicons/react/solid';
+import {
+  CalenderIcon,
+  ClockIcon,
+  DesktopComputerIcon,
+  UsersIcon,
+} from '@heroicons/react/outline';
 
 const Sidebar = () => {
     return (
@@ -9,6 +22,14 @@ const Sidebar = () => {
                 alt=""/>
               <p className="hidden md:inline ml-2">Rahul Mondal</p>
             </div>
+
+            <SidebarRow Icon={UsersIcon}/>
+            <SidebarRow Icon={UserGroupIcon}/>
+            <SidebarRow Icon={ShoppingBagIcon}/>
+            <SidebarRow Icon={DesktopComputerIcon}/>
+            <SidebarRow Icon={CalenderIcon}/>
+            <SidebarRow Icon={ClockIcon}/>
+            <SidebarRow Icon={ChevronDownIcon}/>
             <div className="flex md:p-1.5 items-center md:hover:bg-gray-200 rounded-md cursor-pointer">
               <svg width="25" height="25"
                  className="h-5 md:h-6 text-blue-500"
