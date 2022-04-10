@@ -23,13 +23,13 @@ const Sidebar = () => {
               <p className="hidden md:inline ml-2">Rahul Mondal</p>
             </div>
 
-            <SidebarRow Icon={UsersIcon}/>
-            <SidebarRow Icon={UserGroupIcon}/>
-            <SidebarRow Icon={ShoppingBagIcon}/>
-            <SidebarRow Icon={DesktopComputerIcon}/>
-            <SidebarRow Icon={CalenderIcon}/>
-            <SidebarRow Icon={ClockIcon}/>
-            <SidebarRow Icon={ChevronDownIcon}/>
+            <SidebarRow Icon={UsersIcon} title="Friends"/>
+            <SidebarRow Icon={UserGroupIcon} title="Groups"/>
+            <SidebarRow Icon={ShoppingBagIcon} title="Marketplace"/>
+            <SidebarRow Icon={DesktopComputerIcon} title="Watch"/>
+            <SidebarRow Icon={CalenderIcon} title="Events"/>
+            <SidebarRow Icon={ClockIcon} title="Memories"/>
+            <SidebarRow Icon={ChevronDownIcon} title="See More"/>
             <div className="flex md:p-1.5 items-center md:hover:bg-gray-200 rounded-md cursor-pointer">
               <svg width="25" height="25"
                  className="h-5 md:h-6 text-blue-500"
