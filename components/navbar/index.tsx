@@ -29,7 +29,7 @@ const Navbar = () => {
           <div
             className="flex items-center justify-center ml-2 py-2 md:p-2 bg-gray-100 rounded-full"
             >
-            <SearchIcon className="h-6 text-gray-500 cursor-pointer"/>
+            <SearchIcon className="h-6 w-6 text-gray-500 cursor-pointer"/>
             <input
               type="text" placeholder="Search Facebook"
               className="hidden md:inline pr-2 bg-transparent focus:outline-none"
