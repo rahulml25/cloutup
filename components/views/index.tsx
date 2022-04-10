@@ -13,7 +13,7 @@ const Views = () => {
 	<div className="hidden md:block mt-4 mr-2 w-1/6">
 	  <div className="flex mb-2 space-x-2">
 	    <p className="cursor-pointer">Contacts</p>
-	    <VideoCameraIcon className="h-8 text-gray-500 cursor-pointer"/>
+	    <VideoCameraIcon className="h-6 text-gray-500 cursor-pointer"/>
             <SearchIcon className="h-6 text-gray-500 cursor-pointer"/>
 	    <DotsHorizontalIcon className="h-5 text-gray-500 cursor-pointer"/>
 	  </div>
