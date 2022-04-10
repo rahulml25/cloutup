@@ -5,6 +5,7 @@ import {
   UserGroupIcon,
 } from '@heroicons/react/solid';
 import {
+  FlagIcon,
   PlayIcon,
   SearchIcon,
   ShoppingCartIcon,
@@ -42,6 +43,7 @@ const Navbar = () => {
         <div className="flex items-center space-x-3 cursor-pointer">
           <NavItem Icon={HomeIcon}/>
           <NavItem Icon={FlagIcon}/>
+          <NavItem Icon={PlayIcon}/>
           <NavItem Icon={ShoppingCartIcon}/>
           <NavItem Icon={UserGroupIcon}/>
           <div className="md:p-4 md:bg-gray-100 rounded-xl">
