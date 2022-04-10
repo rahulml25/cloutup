@@ -8,7 +8,7 @@ import {
   ChatAltIcon,
 } from '@heroicons/react/outline';
 
-const FeetPost = () => {
+const FeetPost = (props) => {
   const {
     userimg, username,
     text, imgSrc
