@@ -14,7 +14,7 @@ import {
 
 const Sidebar = () => {
     return (
-        <div className="hidden sm:block p-2 pt-4 w-1/6 lg:-1/4  space-y-4 md:space-y-0">
+        <div className="hidden lg:block p-2 pt-4 w-1/6 lg:-1/4  space-y-4 md:space-y-0">
             <div className="flex md:p-1.5 items-center md:hover:bg-gray-200 rounded-md cursor-pointer">
               <img
                 src="/avatars/rahul.gif"
