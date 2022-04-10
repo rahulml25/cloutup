@@ -20,7 +20,7 @@ const Sidebar = () => {
                 src="/avatars/rahul.gif"
                 className="h-8 w-8 rounded-full"
                 alt=""/>
-              <p className="hidden md:inline ml-2">Rahul Mondal</p>
+              <p className="hidden lg:inline ml-2">Rahul Mondal</p>
             </div>
 
             <SidebarRow Icon={UsersIcon} title="Friends"/>
