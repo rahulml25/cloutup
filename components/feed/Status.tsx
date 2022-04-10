@@ -1,5 +1,6 @@
 
-const Status = ({userSrc, statusSrc, children}) => {
+const Status = (props) => {
+  const {userSrc, statusSrc, children} = props'
   return (
     <div className="relative cursor-pointer">
       <img
