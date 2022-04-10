@@ -10,7 +10,7 @@ import {
 
 const Views = () => {
 	return (
-	<div className="hidden md:block mt-4 mr-2 w-1/5">
+	<div className="hidden md:block mt-4 mr-2 w-1/6 lg:w-1/5 lg:mx-auto">
 	  <div className="flex mb-2 space-x-2">
 	    <p className="cursor-pointer">Contacts</p>
 	    <VideoCameraIcon className="h-6 text-gray-500 cursor-pointer"/>
