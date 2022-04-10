@@ -27,7 +27,7 @@ const Navbar = () => {
             alt=""
           />
           <div
-            className="flex items-center justify-center ml-2 py-2 md:p-2 bg-gray-100 rounded-full"
+            className="flex items-center justify-center ml-2 p-2 bg-gray-100 rounded-full"
             >
             <SearchIcon className="h-6 w-6 text-gray-500 cursor-pointer"/>
             <input
