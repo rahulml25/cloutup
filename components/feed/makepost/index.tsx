@@ -23,7 +23,7 @@ const MakePost = () => {
   	    </div>
   	  </div>
 
-      <div className="my-4 border-b" />
+      <div className="my-4 border-b"/>
 
   	  <div className="flex items-center justify-between md:justify-evenly space-x-2">
   	    <MakePostButton Icon={VideoCameraIcon} title="Live Video" className="text-red-500"/>
