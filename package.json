@@ -23,6 +23,7 @@
     "vite": "^2.7.10"
   },
   "dependencies": {
+    "@heroicons/react": "^1.0.6",
     "@tanem/react-nprogress": "^3.0.73",
     "bcryptjs": "^2.4.3",
     "googleapis": "^96.0.0",
