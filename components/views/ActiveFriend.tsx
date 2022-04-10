@@ -7,7 +7,7 @@ const ActiveFriend = ({name, img, active}) => {
   		className="h-9 rounded-full" alt=""
   	  />
   	  <p>{name}</p>
-  	  {active && <div className="absolute left-5 bottom-1 p-1 bg-green-400 border border-green-300 rounded-full"/>}
+  	  {active && <div className="absolute left-6 bottom-1 p-1 bg-green-400 border border-green-300 rounded-full"/>}
     </div>
   )
 }
