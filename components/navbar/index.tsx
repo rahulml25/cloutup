@@ -2,7 +2,13 @@ import NavItem from './NavItem';
 
 import {
   HomeIcon,
+  UserGroupIcon,
 } from '@heroicons/react/solid';
+import {
+  PlayIcon,
+  SearchIcon,
+  ShoppingCartIcon,
+} from '@heroicons/react/outline';
 
 
 const Navbar = () => {
@@ -18,7 +24,8 @@ const Navbar = () => {
           <div
             className="flex items-center justify-center ml-2 py-2 md:p-2 bg-gray-100 rounded-full"
             >
-            <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+            <SearchIcon className="h-6 text-gray-500 cursor-pointer" />
+            {/*<svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
               width="40" height="40"
               viewBox="0 0 30 30"
               className="h-6 text-gray-500 cursor-pointer">
@@ -29,11 +36,14 @@ const Navbar = () => {
               className="hidden md:inline pr-2 bg-transparent focus:outline-none"
             />
           </div>
-        </div>
+        </div>*/}
 
         {/* Center Nav */}  
         <div className="flex items-center space-x-3 cursor-pointer">
           <NavItem Icon={HomeIcon}/>
+          <NavItem Icon={FlagIcon}/>
+          <NavItem Icon={ShoppingCartIcon}/>
+          <NavItem Icon={UserGroupIcon}/>
           <div className="md:p-4 md:bg-gray-100 rounded-xl">
             <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
               width="24" height="24"
