@@ -31,6 +31,7 @@ const Feed = () => {
 	      text={
 	      	<p>Rahul in Sunset</p>
 	      }
+	      imgSrc="https://scontent.fccu13-1.fna.fbcdn.net/v/t1.6435-9/151236903_765893930976647_5121733961730598344_n.jpg?stp=cp0_dst-jpg_e15_fr_q65&_nc_cat=108&ccb=1-5&_nc_sid=dd9801&efg=eyJpIjoidCJ9&_nc_ohc=j8R4HZwsG40AX-qVios&tn=-3sBOK8cxRYAb2Pj&_nc_ht=scontent.fccu13-1.fna&oh=00_AT9jWpRhRzbD0xqeHURAy3hI_0p3P6o-DlHPrB4arzHkTg&oe=627421BC"
 	    />
 	  </div>
     </div>
