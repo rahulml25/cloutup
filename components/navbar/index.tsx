@@ -38,7 +38,7 @@ const Navbar = () => {
         </div>
 
         {/* Center Nav */}  
-        <div className="flex items-center space-x-3 cursor-pointer">
+        <div className="flex items-center space-x-3 sm:space-x-5 cursor-pointer">
           <NavItem Icon={HomeIcon}/>
           <NavItem Icon={FlagIcon}/>
           <NavItem Icon={PlayIcon}/>
