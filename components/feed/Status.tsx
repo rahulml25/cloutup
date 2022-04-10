@@ -5,7 +5,7 @@ const Status = (props) => {
     <div className="relative cursor-pointer">
       <img
   	    src={userSrc}
-  	    className="absolute m-1 p-0.5 h-10 bg-white rounded-full shadow z-[3]" alt=""
+  	    className="absolute m-1 p-0.5 h-10 w-10 bg-white rounded-full shadow z-[3]" alt=""
       />
       {children}
   	  <img
