@@ -6,7 +6,7 @@ import {
   UserGroupIcon,
 } from '@heroicons/react/solid';
 import {
-  CalenderIcon,
+  CalendarIcon,
   ClockIcon,
   DesktopComputerIcon,
   UsersIcon,
@@ -27,7 +27,7 @@ const Sidebar = () => {
             <SidebarRow Icon={UserGroupIcon} title="Groups"/>
             <SidebarRow Icon={ShoppingBagIcon} title="Marketplace"/>
             <SidebarRow Icon={DesktopComputerIcon} title="Watch"/>
-            <SidebarRow Icon={CalenderIcon} title="Events"/>
+            <SidebarRow Icon={CalendarIcon} title="Events"/>
             <SidebarRow Icon={ClockIcon} title="Memories"/>
             <SidebarRow Icon={ChevronDownIcon} title="See More"/>
             <div className="flex md:p-1.5 items-center md:hover:bg-gray-200 rounded-md cursor-pointer">
